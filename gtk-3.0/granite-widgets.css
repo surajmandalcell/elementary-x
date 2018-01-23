@@ -13,8 +13,8 @@
 *
 * You should have received a copy of the GNU General Public
 * License along with this program; if not, write to the
-* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-* Boston, MA 02110-1301 USA.
+* Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+* Boston, MA 02111-1307, USA.
 *
 * Authored by: Daniel Foré <daniel@elementary.io>
 */
@@ -45,12 +45,6 @@
     border-radius: 0 2.5px 2.5px 0;
     box-shadow: none;
     padding: 2px 0;
-}
-
-.titlebar .back-button {
-    color: @textColorPrimary;
-    text-shadow: 0 1px @textColorPrimaryShadow;
-    icon-shadow: 0 1px @textColorPrimaryShadow;
 }
 
 .back-button:focus,
@@ -116,16 +110,10 @@
 .card {
     background-color: @base_color;
     border: none;
-    border-color: transparent;
     box-shadow:
         0 0 0 1px alpha (#000, 0.05),
         0 3px 3px alpha (#000, 0.22);
     transition: all 150ms ease-in-out;
-}
-
-.card:checked {
-    border: 3px solid @selected_bg_color;
-    border-radius: 3px;
 }
 
 .card.collapsed {
@@ -349,17 +337,18 @@
  * Welcome *
  **********/
 
-.welcome {
+GraniteWidgetsWelcome {
+    background-color: @base_color;
+}
+
+GraniteWidgetsWelcome GtkLabel {
+    color: @placeholder_text_color;
     font-size: 10px;
     text-shadow: none;
 }
 
-.welcome .dim-label {
-    color: @placeholder_text_color;
-}
-
-.welcome .h1,
-.welcome .h3 {
+GraniteWidgetsWelcome .h1,
+GraniteWidgetsWelcome .h3 {
     color: alpha(@text_color, 0.8);
 }
 
@@ -408,23 +397,4 @@ GtkWindow.rounded.window-frame {
 list .h4,
 GtkListBox .h4 {
     padding-left: 6px;
-}
-
-/****************
-* Fake Terminal *
-****************/
-
-.terminal {
-    background-color: #252e32;
-    color: #94a3a5;
-    font-family: monospace;
-}
-
-GtkLabel.terminal {
-    padding: 12px;
-}
-
-.terminal:selected {
-    background-color: #93a1a1;
-    color: #252e32;
 }
