@@ -30,9 +30,10 @@ You'll need ```git``` to install this theme
 ```
 git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementary-x
 ```
-2. Thats it you're done!
+2. Select this theme in tweak tool.
+3. Thats it you're done!
 
-***Note**: To install it globally i.e. for situation when you run apps as sudo move your app to ```/usr/share/themes ```*
+***Note**: To install it globally i.e. for situation when you run apps as root move your app to ```/usr/share/themes ```*
 
 ### Extras
 
