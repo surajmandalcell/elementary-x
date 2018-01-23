@@ -68,3 +68,5 @@ We use [stylelint](http://stylelint.io/) for CSS linting. For testing locally:
 * You will need `npm` installed.
 * Run `npm install` to grab stylelint. You will only need to do this once.
 * Run `npm test` and it will lint all the CSS files.
+
+#### Warning : This theme is dated and is a forked change of oroginal elementary stylesheet which was forked in jul 2017
