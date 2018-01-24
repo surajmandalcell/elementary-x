@@ -4,8 +4,6 @@ Fork of the Default Gtk+ Stylesheet for elementary OS with OS X window controls
 
 The forked Gtk.CSS stylesheet with OS X window controls is designed specifically for [elementary OS](https://elementary.io) and its desktop environment: Pantheon.
 
-See [changes.md](https://raw.githubusercontent.com/andreisergiu98/arc-flatabulous-theme/master/changes) for the full list of changes in stylesheet
-
 #### Elementary-X is available in two variants
 
 ##### Dark Variant
@@ -36,7 +34,7 @@ git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementa
 ***Note**: To install it globally i.e. for situation when you run apps as root move your app to ```/usr/share/themes ```*
 
 ### Extras
-
+* The icon theme used is [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme)
 * The folder also includes plank themes so enjoy!
 * Chrome themes will be included soon..
 
