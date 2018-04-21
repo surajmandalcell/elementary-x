@@ -35,7 +35,7 @@ git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementa
 
 ### Extras
 * The icon theme used is [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme)
-* The folder also includes plank themes so enjoy!
+* The folder also includes plank themes! To install just use the ```install_plank_themes.sh``` script
 * Chrome themes will be included soon..
 
 

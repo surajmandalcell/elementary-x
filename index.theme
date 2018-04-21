@@ -1,13 +1,13 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
 Name=elementary
-Comment=elementary desktop default theme
+Comment=elementary desktop default theme with osx window icons
 Encoding=UTF-8
 
 Name[en_US]=elementary
 
 [X-GNOME-Metatheme]
-GtkTheme=elementary
+GtkTheme=elementary-x
 IconTheme=elementary
 CursorTheme=DMZ-Black
 ButtonLayout=close:maximize
