@@ -23,7 +23,7 @@ HorizPadding=1
 #The padding on the top dock edge, in tenths of a percent of IconSize.
 TopPadding=1.666
 #The padding on the bottom dock edge, in tenths of a percent of IconSize.
-BottomPadding=1.05
+BottomPadding=1.1
 #The padding between items on the dock, in tenths of a percent of IconSize.
 ItemPadding=5.2
 #The size of item indicators, in tenths of a percent of IconSize.

@@ -34,7 +34,7 @@ git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementa
 ***Note**: To install it globally i.e. for situation when you run apps as root move your app to ```/usr/share/themes ```*
 
 ### Extras
-* The icon theme used is [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme)
+* The icon theme used is [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme). (Use ```install_fixed_la_captaine.sh``` to install a fixed version of icon theme for eos)
 * The folder also includes plank themes! To install just use the ```install_plank_themes.sh``` script
 * Chrome themes will be included soon..
 
