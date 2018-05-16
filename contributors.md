@@ -1,5 +1,5 @@
 --- Elementary-x 
-Suraj Mandal
+Suraj Mandal <surajmandalcell@gmail.com>
 
 
 --- Original theme authors
