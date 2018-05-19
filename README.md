@@ -1,5 +1,6 @@
-# Elementary X
-<b> Warning! : I'll port the official stylesheet for juno (`gtk-3.22`) later when a stable'ish version is reached till then I've used [LinxGem33's](https://github.com/LinxGem33/X-Arc-Darker) stylesheet as temporary fix for Elementary OS juno. </b>
+# Elementary X  
+
+> Warning! : I'll port the official stylesheet for juno (`gtk-3.22`) later when a stable'ish version is reached till then I've used [LinxGem33's](https://github.com/LinxGem33/X-Arc-Darker) stylesheet as temporary fix for Elementary OS juno.
 
 Fork of the Default Gtk+ Stylesheet for elementary OS with OS X window controls
 
