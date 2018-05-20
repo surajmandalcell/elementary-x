@@ -38,6 +38,8 @@ git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementa
 * The folder also includes plank themes! To install just use the ```install_plank_themes.sh``` script
 * Chrome themes will be included soon..
 
+#### TO-DO
+Here is the link to the trello board for the project >  [board](https://trello.com/b/hEsKYAOa).  
 
 #### Not a General Purpose Stylesheet
 
@@ -65,4 +67,4 @@ Your changes here will take immediate effect on the focused app.
 We use [stylelint](http://stylelint.io/) for CSS linting. For testing locally:
 * You will need `npm` installed.
 * Run `npm install` to grab stylelint. You will only need to do this once.
-* Run `npm test` and it will lint all the CSS files.
+* Run `npm test` and it will lint all the CSS files
