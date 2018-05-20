@@ -7,7 +7,18 @@
     color: @textColorPrimary;
     text-shadow: 0 1px @textColorPrimaryShadow;
     -gtk-icon-shadow: 0 1px @textColorPrimaryShadow;
-} */
+} 
+
+.titlebar .title:backdrop,
+.titlebar .subtitle:backdrop,
+.titlebar .titlebutton:backdrop,
+.titlebar *:not(entry) image:backdrop {
+    color: mix (@textColorPrimary, @colorPrimary, 0.3);
+    text-shadow: none;
+    -gtk-icon-shadow: none;
+}
+
+*/
 
 
 
