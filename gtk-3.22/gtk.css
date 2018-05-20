@@ -117,7 +117,7 @@
 @define-color theme_selected_fg_color @selected_fg_color;
 @define-color insensitive_fg_color @insensitive_color;
 
-@import url("titlebar.css");
+@import url("elementaryX.css");
 @import url("gtk-widgets.css");
 @import url("granite-widgets.css");
 @import url("apps.css");
