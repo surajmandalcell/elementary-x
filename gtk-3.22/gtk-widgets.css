@@ -3757,8 +3757,7 @@ messagedialog .titlebar.default-decoration:backdrop {
 
 .titlebar .title:disabled,
 .titlebar .subtitle:disabled,
-.titlebar .titlebutton:disabled,
-.titlebar *:not(entry) image:disabled {
+.titlebar .titlebutton:disabled {
     color: shade (@textColorPrimary, 1.5);
     text-shadow: 0 1px @textColorPrimaryShadow;
     -gtk-icon-shadow: 0 1px @textColorPrimaryShadow;
@@ -3902,12 +3901,12 @@ messagedialog .titlebar:backdrop {
         inset 0 1px 0 0 @bg_highlight_color;
 }
 
-dialog .titlebar :not(.suggested-action):not(.destructive-action) image,
+/*dialog .titlebar :not(.suggested-action):not(.destructive-action) image,
 dialog .titlebar :not(.suggested-action):not(.destructive-action) label {
     color: @title_color;
     text-shadow: 0 1px @title_shadow_color;
     -gtk-icon-shadow: 0 1px @title_shadow_color;
-}
+}*/
 
 dialog .titlebar .title {
     color: transparent;

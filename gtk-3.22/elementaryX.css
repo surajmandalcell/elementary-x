@@ -1,5 +1,7 @@
 /* THIS SHIT RIGHT HERE CAUSED A SHIT LOAD OF PROBLEMS FOR ME AND DELAYED THE gtk-3.22 VERSION ALMOST A MONTH BEHIND, FUCK */
 
+/* File : gtk-widgets.css*/
+
 /* .titlebar .title,
 .titlebar .subtitle,
 .titlebar .titlebutton,
@@ -18,55 +20,20 @@
     -gtk-icon-shadow: none;
 }
 
+Causing dialog titlebutton backdrop problems
+
+dialog .titlebar :not(.suggested-action):not(.destructive-action) image,
+dialog .titlebar :not(.suggested-action):not(.destructive-action) label {
+    color: @title_color;
+    text-shadow: 0 1px @title_shadow_color;
+    -gtk-icon-shadow: 0 1px @title_shadow_color;
+}
+
 */
 
 
-decoration {
-    border-radius: 4px 4px 0 0;
-    border-width: 0px;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 10px;
-}
 
-.fullscreen decoration,
-.tiled decoration {
-    border-radius: 0;
-}
 
-.popup decoration {
-    box-shadow: none;
-    border-radius: 0;
-}
-
-.ssd decoration {
-    border-radius: 4px 4px 0 0;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
-}
-
-.ssd decoration.maximized {
-    border-radius: 0;
-}
-
-.csd.popup decoration {
-    border-radius: 2px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
-}
-
-tooltip.csd decoration {
-    border-radius: 2px;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
-}
-
-messagedialog.csd decoration {
-    border-radius: 3px;
-}
-
-.solid-csd decoration {
-    border-radius: 0;
-    margin: 1px;
-    background-color: rgba(231, 232, 235, 0.95);
-    box-shadow: none;
-}
 
 headerbar.default-decoration button.titlebutton,
 .titlebar.default-decoration button.titlebutton {
@@ -79,7 +46,7 @@ headerbar.default-decoration button.titlebutton,
 headerbar button.titlebutton,
 .titlebar button.titlebutton {
     padding: 0;
-    min-width: 24px;
+    min-width: 21px;    /* Changed 24 to 20px */
     border-color: transparent;
     background-color: transparent;
     background-image: none;
