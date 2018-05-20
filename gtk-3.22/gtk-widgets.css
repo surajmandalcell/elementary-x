@@ -1,21 +1,3 @@
-/* Copyright 2011-2015 elementary LLC.
-*
-* This file is part of the elementary GTK theme.
-*
-* The elementary GTK theme is free software: you can redistribute it
-* and/or modify it under the terms of the GNU General Public License as
-* published by the Free Software Foundation, either version 3 of the
-* License, or (at your option) any later version.
-*
-* The elementary GTK theme is distributed in the hope that it will be
-* useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
-* Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along
-* with the elementary GTK theme. If not, see http://www.gnu.org/licenses/.
-*/
-
 * {
     background-clip: padding-box;
     -GtkTextView-error-underline-color: @error_color;
@@ -3723,6 +3705,8 @@ messagedialog .titlebar.default-decoration:backdrop {
     color: shade (@titlebar_color, 1.2);
 }
 
+/* CONFLICTED ELEMENT
+
 .titlebar .title,
 .titlebar .subtitle,
 .titlebar .titlebutton,
@@ -3730,7 +3714,7 @@ messagedialog .titlebar.default-decoration:backdrop {
     color: @textColorPrimary;
     text-shadow: 0 1px @textColorPrimaryShadow;
     -gtk-icon-shadow: 0 1px @textColorPrimaryShadow;
-}
+} */
 
 .titlebar .title {
     font-size: 9pt;
