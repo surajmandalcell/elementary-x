@@ -3725,8 +3725,7 @@ messagedialog .titlebar.default-decoration:backdrop {
 
 .titlebar .title,
 .titlebar .subtitle,
-.titlebar .titlebutton,
-.titlebar *:not(entry) image {
+.titlebar .titlebutton{
     color: @textColorPrimary;
     text-shadow: 0 1px @textColorPrimaryShadow;
     -gtk-icon-shadow: 0 1px @textColorPrimaryShadow;
@@ -3765,10 +3764,11 @@ messagedialog .titlebar.default-decoration:backdrop {
     -gtk-icon-shadow: 0 1px @textColorPrimaryShadow;
 }
 
+/* CONFLICT WITH BACKDROP #2 */
+
 .titlebar .title:backdrop,
 .titlebar .subtitle:backdrop,
-.titlebar .titlebutton:backdrop,
-.titlebar *:not(entry) image:backdrop {
+.titlebar .titlebutton:backdrop {
     color: mix (@textColorPrimary, @colorPrimary, 0.3);
     text-shadow: none;
     -gtk-icon-shadow: none;

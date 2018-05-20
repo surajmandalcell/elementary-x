@@ -1,0 +1,191 @@
+/* THIS SHIT RIGHT HERE CAUSED A SHIT LOAD OF PROBLEMS FOR ME AND DELAYED THE gtk-3.22 VERSION ALMOST A MONTH BEHIND, FUCK */
+
+/* .titlebar .title,
+.titlebar .subtitle,
+.titlebar .titlebutton,
+.titlebar *:not(entry) image {
+    color: @textColorPrimary;
+    text-shadow: 0 1px @textColorPrimaryShadow;
+    -gtk-icon-shadow: 0 1px @textColorPrimaryShadow;
+} 
+
+.titlebar .title:backdrop,
+.titlebar .subtitle:backdrop,
+.titlebar .titlebutton:backdrop,
+.titlebar *:not(entry) image:backdrop {
+    color: mix (@textColorPrimary, @colorPrimary, 0.3);
+    text-shadow: none;
+    -gtk-icon-shadow: none;
+}
+
+*/
+
+
+
+decoration {
+    border-radius: 4px 4px 0 0;
+    border-width: 0px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+decoration:backdrop {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 8px 8px 0 transparent, 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    transition: 200ms ease-out;
+}
+
+.fullscreen decoration,
+.tiled decoration {
+    border-radius: 0;
+}
+
+.popup decoration {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.ssd decoration {
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.ssd decoration.maximized {
+    border-radius: 0;
+}
+
+.csd.popup decoration {
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+tooltip.csd decoration {
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+messagedialog.csd decoration {
+    border-radius: 3px;
+}
+
+.solid-csd decoration {
+    border-radius: 0;
+    margin: 1px;
+    background-color: rgba(231, 232, 235, 0.95);
+    box-shadow: none;
+}
+
+headerbar.default-decoration button.titlebutton,
+.titlebar.default-decoration button.titlebutton {
+    padding: 0 4px;
+    min-width: 0;
+    min-height: 0;
+    margin: 0;
+}
+
+headerbar button.titlebutton,
+.titlebar button.titlebutton {
+    padding: 0;
+    min-width: 24px;
+    border-color: transparent;
+    background-color: transparent;
+    background-image: none;
+    background-color: rgba(231, 232, 235, 0);
+}
+
+headerbar button.titlebutton:hover,
+.titlebar button.titlebutton:hover {
+    color: rgba(82, 93, 118, 0.8);
+    border-color: rgba(82, 93, 118, 0.1);
+    background-color: rgba(251, 251, 252, 0.9);
+}
+
+headerbar button.titlebutton:active,
+headerbar button.titlebutton:checked,
+.titlebar button.titlebutton:active,
+.titlebar button.titlebutton:checked {
+    color: #ffffff;
+    border-color: #5294e2;
+    background-color: #5294e2;
+}
+
+headerbar button.titlebutton.close,
+headerbar button.titlebutton.maximize,
+headerbar button.titlebutton.minimize,
+.titlebar button.titlebutton.close,
+.titlebar button.titlebutton.maximize,
+.titlebar button.titlebutton.minimize {
+    color: transparent;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-width: 0;
+}
+
+headerbar button.titlebutton.close:backdrop,
+headerbar button.titlebutton.maximize:backdrop,
+headerbar button.titlebutton.minimize:backdrop,
+.titlebar button.titlebutton.close:backdrop,
+.titlebar button.titlebutton.maximize:backdrop,
+.titlebar button.titlebutton.minimize:backdrop {
+    opacity: 1;
+}
+
+headerbar button.titlebutton.close,
+.titlebar button.titlebutton.close {
+    background-image: -gtk-scaled(url("assets/titlebutton-close.png"), url("assets/titlebutton-close@2.png"));
+}
+
+headerbar button.titlebutton.close:backdrop,
+.titlebar button.titlebutton.close:backdrop {
+    background-image: -gtk-scaled(url("assets/titlebutton-close-backdrop.png"), url("assets/titlebutton-close-backdrop@2.png"));
+}
+
+headerbar button.titlebutton.close:hover,
+.titlebar button.titlebutton.close:hover {
+    background-image: -gtk-scaled(url("assets/titlebutton-close-hover.png"), url("assets/titlebutton-close-hover@2.png"));
+}
+
+headerbar button.titlebutton.close:active,
+.titlebar button.titlebutton.close:active {
+    background-image: -gtk-scaled(url("assets/titlebutton-close-active.png"), url("assets/titlebutton-close-active@2.png"));
+}
+
+headerbar button.titlebutton.maximize,
+.titlebar button.titlebutton.maximize {
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize.png"), url("assets/titlebutton-maximize@2.png"));
+}
+
+headerbar button.titlebutton.maximize:backdrop,
+.titlebar button.titlebutton.maximize:backdrop {
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-backdrop.png"), url("assets/titlebutton-maximize-backdrop@2.png"));
+}
+
+headerbar button.titlebutton.maximize:hover,
+.titlebar button.titlebutton.maximize:hover {
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-hover.png"), url("assets/titlebutton-maximize-hover@2.png"));
+}
+
+headerbar button.titlebutton.maximize:active,
+.titlebar button.titlebutton.maximize:active {
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-active.png"), url("assets/titlebutton-maximize-active@2.png"));
+}
+
+headerbar button.titlebutton.minimize,
+.titlebar button.titlebutton.minimize {
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize.png"), url("assets/titlebutton-minimize@2.png"));
+}
+
+headerbar button.titlebutton.minimize:backdrop,
+.titlebar button.titlebutton.minimize:backdrop {
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-backdrop.png"), url("assets/titlebutton-minimize-backdrop@2.png"));
+}
+
+headerbar button.titlebutton.minimize:hover,
+.titlebar button.titlebutton.minimize:hover {
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-hover.png"), url("assets/titlebutton-minimize-hover@2.png"));
+}
+
+headerbar button.titlebutton.minimize:active,
+.titlebar button.titlebutton.minimize:active {
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-active.png"), url("assets/titlebutton-minimize-active@2.png"));
+}
