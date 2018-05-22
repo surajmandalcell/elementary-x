@@ -37,6 +37,8 @@ git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementa
 * The icon theme used is [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme). (Use ```install_fixed_icons.sh``` to install a fixed version of icon theme for eos)
 * The folder also includes plank themes! To install just use the ```install_plank_themes.sh``` script
 * Chrome themes will be included soon..
+* There are metacity and xfwm4 themes wich are for other desktop invironment use.
+* *There is no gnome-shell theme as it is ment for elementary gala de*.
 
 #### TO-DO
 Here is the link to the trello board for the project >  [board](https://trello.com/b/hEsKYAOa).  
