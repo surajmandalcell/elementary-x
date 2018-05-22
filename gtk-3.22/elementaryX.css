@@ -153,3 +153,8 @@ headerbar button.titlebutton.minimize:active,
 .titlebar button.titlebutton.minimize:active {
     background-image: -gtk-scaled(url("assets/titlebutton-minimize-active.png"), url("assets/titlebutton-minimize-active@2.png"));
 }
+
+
+/***********************************
+*           EXPERIMENTAL           *
+************************************/

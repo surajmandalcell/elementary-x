@@ -1,6 +1,9 @@
---- Elementary-x 
-Suraj Mandal <surajmandalcell@gmail.com>
+--- Elementary-x
+Suraj Mandal <surajmandalcell@gmail.com><https://github.com/surajmandalcell>
 
+
+--- metacity and xfwm4 theme
+vinceliuice <vinceliuice@hotmail.com><https://github.com/vinceliuice>
 
 --- Original theme authors
 Andreas Stocker (firefeak)

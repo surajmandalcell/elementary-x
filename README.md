@@ -19,6 +19,11 @@ The forked Gtk.CSS stylesheet with OS X window controls is designed specifically
 ![](http://i.imgur.com/XjGm1FX.png)
 
 
+#### Features
+
+- Traffic lights window controls
+- Re-designed widgets to look cool
+- Always up to date with original elementary-os stylesheet
 
 ### Installation
 
@@ -43,9 +48,6 @@ git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementa
 #### TO-DO
 Here is the link to the trello board for the project >  [board](https://trello.com/b/hEsKYAOa).  
 
-#### Not a General Purpose Stylesheet
-
-Special fixes for GNOME apps (Nautilus, GNOME Control Center, GNOME Shell, etc) or other desktop environments will not be implemented. The aim of style classes should be to be generic across applications. If an application needs a unique style,  it should be bundled with that application.
 
 ### Contributing
 
@@ -60,7 +62,7 @@ changed for your changes to take effect.
 You can also test changes live with Gtk Inspector. Make sure you have Gtk
 development libraries installed:
 
-    apt install libgtk-3-dev
+    sudo apt install libgtk-3-dev
 
 Open an app you wish to test your changes on. Open Gtk Inspector with the
 keyboard shortcut Shift + Ctrl + D, then navigate to the tab "Custom CSS".
