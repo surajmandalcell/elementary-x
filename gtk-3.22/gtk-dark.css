@@ -119,10 +119,10 @@
 @define-color theme_selected_fg_color @selected_fg_color;
 @define-color insensitive_fg_color @insensitive_color;
 
-@import url("elementaryX.css");
 @import url("gtk-widgets.css");
 @import url("gtk-widgets-dark.css");
 @import url("granite-widgets.css");
 @import url("granite-widgets-dark.css");
 @import url("apps.css");
 @import url("animate.css");
+@import url("elementaryX.css");

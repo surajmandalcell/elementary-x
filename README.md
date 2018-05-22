@@ -31,7 +31,7 @@ git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementa
 2. Select this theme in tweak tool.
 3. Thats it you're done!
 
-***Note**: To install it globally i.e. for situation when you run apps as root move your app to ```/usr/share/themes ```*
+***Note**: To install it globally i.e. for situation when you run apps as root or specially SNAP packages move your theme to ```/usr/share/themes ```*
 
 ### Extras
 * The icon theme used is [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme). (Use ```install_fixed_icons.sh``` to install a fixed version of icon theme for eos)
