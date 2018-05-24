@@ -196,7 +196,7 @@ switch:checked {
             ),
             @colorSwitch
         );
-    border-color: shade (@colorSwitch, 0.75);
+    border-color: shade (@colorSwitch, 0.85);
 }
 
 

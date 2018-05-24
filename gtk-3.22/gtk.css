@@ -118,7 +118,7 @@
 @define-color insensitive_fg_color @insensitive_color;
 
 /* Elementary-x additional colors */
-@define-color colorSwitch #71c837;
+@define-color colorSwitch #3DB296;
 
 
 @import url("gtk-widgets.css");

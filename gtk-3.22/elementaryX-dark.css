@@ -1,0 +1,16 @@
+/* Dark stuff */
+
+/* Switch */
+
+switch:checked {
+    background-image:
+        linear-gradient(
+            to bottom,
+            shade (
+                @colorSwitch,
+                1.2
+            ),
+            @colorSwitch
+        );
+    border-color: shade (@colorSwitch, 0.3);
+}

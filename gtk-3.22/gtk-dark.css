@@ -120,7 +120,7 @@
 @define-color insensitive_fg_color @insensitive_color;
 
 /* Elementary-x additional colors */
-@define-color colorSwitch #71c837;
+@define-color colorSwitch #3DB296;
 
 @import url("gtk-widgets.css");
 @import url("gtk-widgets-dark.css");
@@ -129,3 +129,4 @@
 @import url("apps.css");
 @import url("animate.css");
 @import url("elementaryX.css");
+@import url("elementaryX-dark.css");
