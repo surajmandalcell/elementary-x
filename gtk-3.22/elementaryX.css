@@ -166,6 +166,26 @@ headerbar button.titlebutton.minimize:active,
 }
 
 
+
+/************************************
+*   SWITCH COLOR CHANGED TO GREEN   *
+*************************************/
+
+switch:checked {
+    background-image:
+        linear-gradient(
+            to bottom,
+            shade (
+                @colorSwitch,
+                1.2
+            ),
+            @colorSwitch
+        );
+    border-color: shade (@colorSwitch, 0.75);
+}
+
+
+
 /***********************************
 *           EXPERIMENTAL           *
-***********************************
+***********************************/
