@@ -1,4 +1,4 @@
-/* THIS SHIT RIGHT HERE CAUSED A SHIT LOAD OF PROBLEMS FOR ME AND DELAYED THE gtk-3.22 VERSION ALMOST A MONTH BEHIND, FUCK */
+ THIS SHIT RIGHT HERE CAUSED A SHIT LOAD OF PROBLEMS FOR ME AND DELAYED THE gtk-3.22 VERSION ALMOST A MONTH BEHIND, FUCK */
 
 /* File : gtk-widgets.css*/
 
@@ -49,7 +49,7 @@ headerbar.default-decoration button.titlebutton,
 headerbar button.titlebutton,
 .titlebar button.titlebutton {
     padding: 0;
-    min-width: 21px;    /* Changed 24 to 20px */
+    min-width: 21px;    /* Changed 24 to 21px [Spacing between titlebuttons]*/
     border-color: transparent;
     background-color: transparent;
     background-image: none;
@@ -72,6 +72,13 @@ headerbar button.titlebutton:checked,
     background-color: #5294e2;
 }
 
+/*Trying to remove stupid :active border*/
+/*headerbar button.titlebutton.close:active,
+headerbar button.titlebutton.maximize:active,
+headerbar button.titlebutton.minimize:active{
+    
+}*/
+
 headerbar button.titlebutton.close,
 headerbar button.titlebutton.maximize,
 headerbar button.titlebutton.minimize,
@@ -91,7 +98,7 @@ headerbar button.titlebutton.minimize:backdrop,
 .titlebar button.titlebutton.close:backdrop,
 .titlebar button.titlebutton.maximize:backdrop,
 .titlebar button.titlebutton.minimize:backdrop {
-    opacity: 1;
+    opacity: 0.75; /* Changed opacity to make it less poppy for inactive windows*/
 }
 
 headerbar button.titlebutton.close,
@@ -157,4 +164,4 @@ headerbar button.titlebutton.minimize:active,
 
 /***********************************
 *           EXPERIMENTAL           *
-************************************/
+***********************************
