@@ -19,7 +19,7 @@ The forked Gtk.CSS stylesheet with OS X window controls is designed specifically
 ![](http://i.imgur.com/XjGm1FX.png)
 
 
-(More screenshots)[https://imgur.com/a/yoBOoSx]
+[More screenshots](https://imgur.com/a/yoBOoSx)
 
 #### Features
 

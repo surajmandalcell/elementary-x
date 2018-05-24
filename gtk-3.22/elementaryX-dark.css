@@ -12,5 +12,5 @@ switch:checked {
             ),
             @colorSwitch
         );
-    border-color: shade (@colorSwitch, 0.3);
+    border-color: shade (@colorSwitch, 0.35);
 }
