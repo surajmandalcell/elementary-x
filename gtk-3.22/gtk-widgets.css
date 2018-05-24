@@ -2044,10 +2044,10 @@ switch:focus slider {
 }
 
 
-/* Changed switch color to green */
+/* Made the switch:checked green */
 
 check:checked,
-radio:checked,
+radio:checked
 /*switch:checked*/ {
     background-image:
         linear-gradient(
