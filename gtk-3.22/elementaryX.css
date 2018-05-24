@@ -1,4 +1,4 @@
- THIS SHIT RIGHT HERE CAUSED A SHIT LOAD OF PROBLEMS FOR ME AND DELAYED THE gtk-3.22 VERSION ALMOST A MONTH BEHIND, FUCK */
+/* THIS SHIT RIGHT HERE CAUSED A SHIT LOAD OF PROBLEMS FOR ME AND DELAYED THE gtk-3.22 VERSION ALMOST A MONTH BEHIND, FUCK */
 
 /* File : gtk-widgets.css*/
 
@@ -29,6 +29,21 @@ dialog .titlebar :not(.suggested-action):not(.destructive-action) label {
     -gtk-icon-shadow: 0 1px @title_shadow_color;
 }
 
+.titlebar {
+    background-image: linear-gradient(to top, #d8d7d8, #e6e5e6);
+    border-color: #d8d7d8;
+    border-radius: 4px 4px 0 0;
+    border-style: solid;
+    border-width: 0 0 0px; 
+    text-shadow: 0 1px alpha (shade (@colorPrimary, 1.4), 0.4);
+    //box-shadow:
+    //    inset 0 0 0 1px alpha (shade (@colorPrimary, 1.4), 0.2),         // No need of box shadows anymore
+    //    inset 0 1px 0 0 alpha (shade (@colorPrimary, 1.4), 0.6);
+    padding: 8px 6px 6px;
+    -gtk-icon-shadow: 0 1px alpha (shade (@colorPrimary, 1.4), 0.4);
+}
+
+
 */
 
 
@@ -51,7 +66,7 @@ headerbar.default-decoration button.titlebutton,
 headerbar button.titlebutton,
 .titlebar button.titlebutton {
     padding: 0;
-    min-width: 21px;    /* Changed 24 to 21px [Spacing between titlebuttons]*/
+    min-width: 19px;    /* Changed 24 to 19px [Spacing between titlebuttons]*/
     border-color: transparent;
     background-color: transparent;
     background-image: none;
@@ -190,3 +205,6 @@ switch:checked {
 *           EXPERIMENTAL           *
 ***********************************/
 
+/*window .vertical menubar{
+  background-image: linear-gradient(to top, #d8d7d8, #e6e5e6);
+}*/
