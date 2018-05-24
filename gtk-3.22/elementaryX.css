@@ -37,6 +37,8 @@ dialog .titlebar :not(.suggested-action):not(.destructive-action) label {
 *               CSD                *
 ************************************/
 
+/* MY CSD STARTS FROM HERE */
+
 
 headerbar.default-decoration button.titlebutton,
 .titlebar.default-decoration button.titlebutton {
@@ -72,12 +74,14 @@ headerbar button.titlebutton:checked,
     background-color: #5294e2;
 }
 
-/*Trying to remove stupid :active border*/
-/*headerbar button.titlebutton.close:active,
+/* Fixed/removed stupid :active border and box
+   shadow that applied because of button css*/
+headerbar button.titlebutton.close:active,
 headerbar button.titlebutton.maximize:active,
 headerbar button.titlebutton.minimize:active{
-    
-}*/
+    border-color: transparent;
+    box-shadow: none;
+}
 
 headerbar button.titlebutton.close,
 headerbar button.titlebutton.maximize,
