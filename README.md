@@ -35,7 +35,7 @@ You'll need ```git``` to install this theme
 ```
 git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementary-x
 ```
-2. Select this theme in tweak tool.
+2. Select this theme in tweak tool or execute the following ```gsettings set org.gnome.desktop.interface gtk-theme "elementary-x"``` .  
 3. Thats it you're done!
 
 ***Note**: To install it globally i.e. for situation when you run apps as root or specially SNAP packages move your theme to ```/usr/share/themes ```*
