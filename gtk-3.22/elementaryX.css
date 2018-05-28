@@ -1,4 +1,4 @@
-/* THIS SHIT RIGHT HERE CAUSED A SHIT LOAD OF PROBLEMS FOR ME AND DELAYED THE gtk-3.22 VERSION ALMOST A MONTH BEHIND, FUCK */
+ THIS SHIT RIGHT HERE CAUSED A SHIT LOAD OF PROBLEMS FOR ME AND DELAYED THE gtk-3.22 VERSION ALMOST A MONTH BEHIND, FUCK */
 
 /* File : gtk-widgets.css*/
 
@@ -200,6 +200,12 @@ switch:checked {
 }
 
 
+/* Fix nautilus */
+
+.nautilus-window button{
+ border-radius: 0%;
+}
+
 
 /***********************************
 *           EXPERIMENTAL           *
@@ -207,4 +213,4 @@ switch:checked {
 
 /*window .vertical menubar{
   background-image: linear-gradient(to top, #d8d7d8, #e6e5e6);
-}*/
+}
