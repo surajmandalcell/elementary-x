@@ -1,4 +1,4 @@
- THIS SHIT RIGHT HERE CAUSED A SHIT LOAD OF PROBLEMS FOR ME AND DELAYED THE gtk-3.22 VERSION ALMOST A MONTH BEHIND, FUCK */
+ /* THIS SHIT RIGHT HERE CAUSED A SHIT LOAD OF PROBLEMS FOR ME AND DELAYED THE gtk-3.22 VERSION ALMOST A MONTH BEHIND, FUCK */
 
 /* File : gtk-widgets.css*/
 
@@ -204,18 +204,18 @@ switch:checked {
 /* Fix nautilus */
 /****************/
 
-/* Titlebar button fix */
+/* Titlebar button fix light mode only */
 
 .nautilus-window button.image-button.text-button.toggle:checked{
   border-radius: 0%;
   border: 1px solid #bbb;
   text-shadow : none;
-  box-shadow: inset 1px 0px 4px rgba(0;0;0;0.1);
+  box-shadow: inset 1px 0px 4px rgba(0,0,0,0.1);
   box-shadow: inset 0px 0px 0px 0px #eaeaea;
 }
 
 .nautilus-window button.text-button.toggle:checked{
-  box-shadow: inset 1px 0px 4px rgba(0;0;0;0.1);
+  box-shadow: inset 1px 0px 4px rgba(0,0,0,0.1);
   box-shadow: inset 0px 0px 0px 0px #eaeaea;
   border: 1px solid #bbb;
 }
@@ -254,7 +254,8 @@ switch:checked {
   background-image: linear-gradient(to top, #d8d7d8, #e6e5e6);
 }
 
-/* can use to fix dialog box problems
+ can use to fix dialog box problems
+
 *:disabled {
   background-color: #320a91;
 }
