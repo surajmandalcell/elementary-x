@@ -1,3 +1,5 @@
+/* Latest upstream sync commit https://github.com/elementary/stylesheet/commit/a42bb09c19a0347f59bdf65a8c8795c5ff2700ca */
+
 * {
     background-clip: padding-box;
     -GtkTextView-error-underline-color: @error_color;

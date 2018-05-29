@@ -43,9 +43,7 @@ dialog .titlebar :not(.suggested-action):not(.destructive-action) label {
     -gtk-icon-shadow: 0 1px alpha (shade (@colorPrimary, 1.4), 0.4);
 }
 
-
 */
-
 
 
 /***********************************
