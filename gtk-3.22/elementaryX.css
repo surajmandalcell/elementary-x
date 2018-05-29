@@ -200,10 +200,43 @@ switch:checked {
 }
 
 
+/****************/
 /* Fix nautilus */
+/****************/
 
-.nautilus-window button{
- border-radius: 0%;
+/* Titlebar button fix */
+
+button.image-button.text-button.toggle:checked{
+  border-radius: 0%;
+  border: 1px solid #bbb;
+  text-shadow : none;
+  box-shadow: inset 1px 0px 4px rgba(0;0;0;0.1);
+  box-shadow: inset 0px 0px 0px 0px #eaeaea;
+}
+
+button.image-button.text-button.toggle:not(checked){
+  border-radius: 0%;
+  border: 1px solid #bbb;
+  background-image:
+        linear-gradient(
+            to bottom,
+            transparent,
+            transparent 50%,
+            alpha (
+                #000,
+                0.03
+            )
+        );
+  box-shadow: inset 0px 1px 0px 0px #eaeaea;
+}
+
+button.image-button.text-button.toggle:not(checked):nth-child(2){
+  border-left: none;
+}
+
+button.image-button.text-button.toggle:not(checked):backdrop{
+  box-shadow: inset 0px 1px 0px 0px #fafafa;
+  background-image: linear-gradient(#ededed, #e8e8e8);
 }
 
 
@@ -214,3 +247,9 @@ switch:checked {
 /*window .vertical menubar{
   background-image: linear-gradient(to top, #d8d7d8, #e6e5e6);
 }
+
+/* can use to fix dialog box problems
+*:disabled {
+  background-color: #320a91;
+}
+*/
