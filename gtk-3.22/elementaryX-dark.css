@@ -14,3 +14,34 @@ switch:checked {
         );
     border-color: shade (@colorSwitch, 0.35);
 }
+
+/* Nautilus fix */
+
+.nautilus-window button.image-button.text-button.toggle:checked{
+  border-radius: 0%;
+  border: 1px solid #2f3337;
+  text-shadow : none;
+  background-image: linear-gradient(#383D42, #3a3e44);
+  box-shadow: inset 0px 0px 0px 0px transparent;
+}
+
+.nautilus-window button.text-button.toggle:checked{
+  box-shadow: none;
+  border: 1px solid #2f3337;
+}
+
+.nautilus-window button.image-button.text-button.toggle:not(checked){
+  border-radius: 0%;
+  border: 1px solid #2F3337;
+  box-shadow: inset 0px 1px 0px 0px #41494f;
+}
+
+.nautilus-window button.image-button.text-button.toggle:not(checked):backdrop{
+  border: 1px solid #2F3337;
+  box-shadow: inset 0px 1px 0px 0px #41494f;
+  background-image: linear-gradient(#3b4045, #3a3e44);
+}
+
+.nautilus-window button.image-button.text-button.toggle:not(checked):nth-child(2){
+  border-left: none;
+}
