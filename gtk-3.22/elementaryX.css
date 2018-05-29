@@ -206,7 +206,7 @@ switch:checked {
 
 /* Titlebar button fix */
 
-button.image-button.text-button.toggle:checked{
+.nautilus-window button.image-button.text-button.toggle:checked{
   border-radius: 0%;
   border: 1px solid #bbb;
   text-shadow : none;
@@ -214,7 +214,13 @@ button.image-button.text-button.toggle:checked{
   box-shadow: inset 0px 0px 0px 0px #eaeaea;
 }
 
-button.image-button.text-button.toggle:not(checked){
+.nautilus-window button.text-button.toggle:checked{
+  box-shadow: inset 1px 0px 4px rgba(0;0;0;0.1);
+  box-shadow: inset 0px 0px 0px 0px #eaeaea;
+  border: 1px solid #bbb;
+}
+
+.nautilus-window button.image-button.text-button.toggle:not(checked){
   border-radius: 0%;
   border: 1px solid #bbb;
   background-image:
@@ -230,11 +236,11 @@ button.image-button.text-button.toggle:not(checked){
   box-shadow: inset 0px 1px 0px 0px #eaeaea;
 }
 
-button.image-button.text-button.toggle:not(checked):nth-child(2){
+.nautilus-window button.image-button.text-button.toggle:not(checked):nth-child(2){
   border-left: none;
 }
 
-button.image-button.text-button.toggle:not(checked):backdrop{
+.nautilus-window button.image-button.text-button.toggle:not(checked):backdrop{
   box-shadow: inset 0px 1px 0px 0px #fafafa;
   background-image: linear-gradient(#ededed, #e8e8e8);
 }
