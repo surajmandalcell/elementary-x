@@ -54,7 +54,7 @@ headerbar.quilter-toolbar.titlebar{
 
 /* GNOME apps fix 3.28 */
 
-.titlebar button:not(.titlebutton):not(.text-button):not(.radio):hover,
-.titlebar .button:not(.titlebutton):not(.text-button):not(.radio):hover {
+.titlebar button:not(.titlebutton):not(.text-button):not(.radio):not(.color):hover,
+.titlebar .button:not(.titlebutton):not(.text-button):not(.radio):not(.color):hover {
     background: rgba(255,255,255,0.2);
 }

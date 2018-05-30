@@ -260,8 +260,8 @@ headerbar.quilter-toolbar.titlebar{
   box-shadow: none;
 }  
 
-.titlebar button:not(.titlebutton):not(.text-button):not(.radio):hover,
-.titlebar .button:not(.titlebutton):not(.text-button):not(.radio):hover {
+.titlebar button:not(.titlebutton):not(.text-button):not(.radio):not(.color):hover,
+.titlebar .button:not(.titlebutton):not(.text-button):not(.radio):not(.color):hover {
     background: rgba(0,0,0,0.1);
 }
 
