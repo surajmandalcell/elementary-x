@@ -282,7 +282,8 @@ entry.uribar{
   padding: 4px;
 }
 
-grid.horizontal widget image{
+widget.input grid.horizontal grid.horizontal widget image{
+  margin-left: -4px;
   margin-right: 8px
 }
 
