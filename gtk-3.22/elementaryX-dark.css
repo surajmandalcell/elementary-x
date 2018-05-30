@@ -51,3 +51,10 @@ switch:checked {
 headerbar.quilter-toolbar.titlebar{
   background-color: #232629;
 }
+
+/* GNOME apps fix 3.28 */
+
+.titlebar button:not(.titlebutton):not(.text-button):not(.radio):hover,
+.titlebar .button:not(.titlebutton):not(.text-button):not(.radio):hover {
+    background: rgba(255,255,255,0.2);
+}

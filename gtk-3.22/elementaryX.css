@@ -251,12 +251,20 @@ headerbar.quilter-toolbar.titlebar{
 
 /* Gnome Apps Fixes */
 
-.titlebar button.toggle:not(.titlebutton),
-.titlebar .button.toggle {
+.titlebar button:not(.titlebutton):not(.text-button):not(.radio),
+.titlebar .button:not(.titlebutton):not(.text-button):not(.radio)
+{
+    padding: 3px;
     border-radius: 99px;
     border: 1px solid transparent;
     background-image: none;
     box-shadow: none;
+
+}
+
+.titlebar button:not(.titlebutton):not(.text-button):not(.radio):hover,
+.titlebar .button:not(.titlebutton):not(.text-button):not(.radio):hover {
+    background: rgba(0,0,0,0.1);
 }
 
     /* eolie fix */
