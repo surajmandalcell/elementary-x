@@ -1,4 +1,4 @@
-/* Latest upstream sync commit https://github.com/elementary/stylesheet/commit/abafcdfe2879e4ad99cda25b00caf748bd050367 */
+/* Latest upstream sync commit https://github.com/elementary/stylesheet/commit/eaa32160ed2801b489898e2c640c5ef81f5ffafd */
 
 /*********
 * Avatar *
@@ -639,7 +639,8 @@ scale trough:disabled {
 * Fake Terminal *
 ****************/
 
-.terminal {
+.terminal,
+.terminal text {
     background-color: #252e32;
     color: #94a3a5;
     font-family: monospace;
