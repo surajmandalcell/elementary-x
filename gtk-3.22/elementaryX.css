@@ -251,6 +251,15 @@ headerbar.quilter-toolbar.titlebar{
 
 /* Gnome Apps Fixes */
 
+    /* Not a accurate fix */
+.titlebar box:not(.raised) > button:not(.titlebutton):not(.text-button):not(.radio),
+.titlebar box:not(.raised) > .button:not(.titlebutton):not(.text-button):not(.radio){
+  border: 1px solid transparent;
+  background-image: none;
+  border-radius: 99px;
+  box-shadow: none;
+}  
+
 .titlebar button:not(.titlebutton):not(.text-button):not(.radio):hover,
 .titlebar .button:not(.titlebutton):not(.text-button):not(.radio):hover {
     background: rgba(0,0,0,0.1);
@@ -259,6 +268,8 @@ headerbar.quilter-toolbar.titlebar{
 stack frame {
     border: none;
 }
+
+    /* CoreBird fix */
 
 box.vertical revealer box.horizontal.topbar{
   min-height: 40px
