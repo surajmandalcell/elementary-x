@@ -1,4 +1,4 @@
-/* Latest upstream sync https://github.com/elementary/stylesheet/commit/1788c2c583f2b7389d47ff3762e51e4bca37b926 */
+/* Latest upstream sync https://github.com/elementary/stylesheet/commit/14207e9cfe0d86d41ee96867631b658261fddbce */
 
 * {
     background-clip: padding-box;
@@ -2304,7 +2304,7 @@ toolbar.bottom-toolbar button,
 .titlebar button.image-button,
 .titlebar .button.flat,
 .titlebar .button.image-button {
-    border-radius: 50%;
+    border-radius: 99px;
     background-color: transparent;
 }
 
