@@ -45,3 +45,9 @@ switch:checked {
 .nautilus-window button.image-button.text-button.toggle:not(checked):nth-child(2){
   border-left: none;
 }
+
+/* Quilter */
+
+headerbar.quilter-toolbar.titlebar{
+  background-color: #232629;
+}

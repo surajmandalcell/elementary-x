@@ -243,6 +243,11 @@ switch:checked {
   background-image: linear-gradient(#ededed, #e8e8e8);
 }
 
+/* Quilter */
+
+headerbar.quilter-toolbar.titlebar{
+  background-color: #fcfcfc;
+}
 
 /***********************************
 *           EXPERIMENTAL           *
