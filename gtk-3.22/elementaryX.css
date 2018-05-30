@@ -256,6 +256,14 @@ headerbar.quilter-toolbar.titlebar{
     background: rgba(0,0,0,0.1);
 }
 
+stack frame {
+    border: none;
+}
+
+box.vertical revealer box.horizontal.topbar{
+  min-height: 40px
+}
+
     /* eolie fix */
 
 entry.uribar{
