@@ -245,7 +245,8 @@ switch:checked {
 
 /* Quilter */
 
-headerbar.quilter-toolbar.titlebar{
+headerbar.quilter-toolbar.titlebar,
+headerbar.quilter-toolbar.titlebar:backdrop {
   background-color: #fcfcfc;
 }
 
