@@ -6,3 +6,4 @@ cp -r /usr/share/icons/elementary/status/24/* panel/24/
 rm -rf ~/.icons/la-captaine/status/symbolic/system-shutdown-symbolic.svg
 rm -rf ~/.icons/la-captaine/actions/symbolic/system-shutdown-symbolic.svg
 sed -i -e 's/breeze,//g' index.theme
+gsettings set org.gnome.desktop.interface icon-theme "la-captaine"
