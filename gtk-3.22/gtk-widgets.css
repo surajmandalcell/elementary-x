@@ -1,4 +1,4 @@
-/* Latest upstream sync https://github.com/elementary/stylesheet/commit/14207e9cfe0d86d41ee96867631b658261fddbce */
+/* Latest upstream sync https://github.com/elementary/stylesheet/commit/bfa7b6d2c7e6c46d3ebe221e49a29e3ef15d8263 */
 
 * {
     background-clip: padding-box;
@@ -1984,7 +1984,7 @@ switch {
         inset 0 0 0 1px alpha (#000, 0.05),
         0 1px 0 0 alpha (@bg_highlight_color, 0.3);
     color: transparent;
-    font-size: 0;
+    font-size: 0.1;
 }
 
 /* FIXME: treeview .cell needs to be more specific to avoid this */
@@ -3909,7 +3909,7 @@ dialog .titlebar :not(.suggested-action):not(.destructive-action) label {
 
 dialog .titlebar .title {
     color: transparent;
-    font-size: 0;
+    font-size: 0.1;
     text-shadow: none;
     -gtk-icon-shadow: none;
 }
@@ -3974,7 +3974,7 @@ dialog label.primary {
     border: none;
     border-radius: 0;
     box-shadow: none;
-    font-size: 0;
+    font-size: 0.1;
     min-height: 24px;
     min-width: 24px;
     opacity: 0.6;
@@ -4024,7 +4024,7 @@ dialog label.primary {
 .emoji-picker:dir(ltr) .emoji-section:nth-child(6),
 .emoji-picker:dir(rtl) .emoji-section:nth-child(5) {
     background-image: -gtk-icontheme("emoji-travel-symbolic");
-    font-size: 0;
+    font-size: 0.1;
 }
 
 .emoji-picker:dir(ltr) .emoji-section:nth-child(7),
