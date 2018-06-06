@@ -44,7 +44,8 @@ gsettings set org.gnome.desktop.interface gtk-theme "elementary-x"
 ***Note**: To install it globally i.e. for situation when you run apps as root or specially SNAP packages move your theme to ```/usr/share/themes ```*
 
 ### Extras
-* The icon theme used is [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme). (Use ```install_fixed_icons.sh``` to install a fixed version of icon theme for eos)
+* Refer here to see how to set [DARK MODE](https://askubuntu.com/questions/769417/how-to-change-global-dark-theme-on-and-off-through-terminal) 
+* The icon theme used is [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme). (Use `install_fixed_icons.sh` to install a fixed version of icon theme for eos)
 * The folder also includes plank themes! To install just use the ```install_plank_themes.sh``` script
 * Chrome themes will be included soon..
 * There are metacity and xfwm4 themes wich are for other desktop invironment use.
@@ -72,8 +73,3 @@ development libraries installed:
 Open an app you wish to test your changes on. Open Gtk Inspector with the
 keyboard shortcut Shift + Ctrl + D, then navigate to the tab "Custom CSS".
 Your changes here will take immediate effect on the focused app.
-
-We use [stylelint](http://stylelint.io/) for CSS linting. For testing locally:
-* You will need `npm` installed.
-* Run `npm install` to grab stylelint. You will only need to do this once.
-* Run `npm test` and it will lint all the CSS files
