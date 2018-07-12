@@ -13,5 +13,8 @@ rm -rf ~/.icons/la-captaine/panel/24-dark/bluetooth-active-symbolic.svg
 rm -rf ~/.icons/la-captaine/panel/24-dark/bluetooth-disabled-symbolic.svg
 rm -rf ~/.icons/la-captaine/panel/24-light/bluetooth-active-symbolic.svg
 rm -rf ~/.icons/la-captaine/panel/24-light/bluetooth-disabled-symbolic.svg
+# Bluetooth icon fix
+cp -r ~/.icons/la-captaine/panel/24-light/bluetooth* ~/.icons/la-captaine/panel/24/
+cp -r ~/.icons/la-captaine/panel/24-dark/bluetooth* ~/.icons/la-captaine/panel/24/
 sed -i -e 's/breeze,//g' index.theme
 gsettings set org.gnome.desktop.interface icon-theme "la-captaine"
