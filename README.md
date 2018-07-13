@@ -8,11 +8,12 @@ The forked Gtk.CSS stylesheet with OS X window controls is designed specifically
 
 ##### Dark Variant
 
-![](http://i.imgur.com/UnfojQF.png)
-
-![](http://i.imgur.com/99CIf7m.png)
+![](https://i.imgur.com/kWuZ2aY.png)
+![](https://i.imgur.com/n2T2tjm.png)
+![](https://i.imgur.com/lPLt0Xx.png)
 
 ##### Light Variant
+###### (old screenshots)
 
 ![](http://i.imgur.com/AFwq5WW.png)
 
