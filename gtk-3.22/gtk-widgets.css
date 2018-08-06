@@ -1,4 +1,4 @@
-/* Latest upstream sync https://github.com/elementary/stylesheet/commit/8b910cfdd04745c4dab20e751fec4f3210a428ba */
+/* Latest upstream sync https://github.com/elementary/stylesheet/pull/361/files/435595ff07fe8c983838f18b0c0c0b49bbaaf478 */
 
 * {
     background-clip: padding-box;
@@ -624,12 +624,12 @@ levelbar block.filled.high {
         linear-gradient(
             to bottom,
             shade (
-                @success_color,
+                @LIME_300,
                 1.1
             ),
-            @success_color
+            @LIME_300
         );
-    border-color: shade (@success_color, 0.9);
+    border-color: shade (@LIME_300, 0.9);
 }
 
 levelbar block.empty {
