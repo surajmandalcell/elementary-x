@@ -1,4 +1,4 @@
-/* Latest sync upstream commit https://github.com/elementary/stylesheet/blob/0b0bcbd06f28fd2ec50a7d2e8f920a896ada0223/gtk-3.22/apps.css */
+/* Latest sync upstream commit https://github.com/elementary/stylesheet/pull/367/commits/c91b754bb602343adff587ae6281e36fd3be73ff */
 
 /***********
 * Epiphany *
@@ -384,13 +384,6 @@ menubar.panel,
 /***************
  * Switchboard *
  **************/
-
-.hotcorner-display {
-    border-radius: 2px;
-    -gtk-icon-shadow:
-        0 3px 4px alpha (#000, 0.2),
-        0 2px 2px alpha (#000, 0.3);
-}
 
 .login entry {
     padding: 6px;
