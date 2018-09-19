@@ -1,4 +1,4 @@
-/* Latest upstream sync https://github.com/elementary/stylesheet/pull/334 */
+/* Latest upstream sync https://github.com/elementary/stylesheet/pull/374 */
 
 * {
     background-clip: padding-box;
@@ -3769,7 +3769,7 @@ messagedialog .titlebar.default-decoration:backdrop {
 .titlebar .title:disabled,
 .titlebar .subtitle:disabled,
 .titlebar .titlebutton:disabled {
-    color: shade (@textColorPrimary, 1.5);
+    color: mix (@textColorPrimary, @colorPrimary, 0.35);
     text-shadow: 0 1px @textColorPrimaryShadow;
     -gtk-icon-shadow: 0 1px @textColorPrimaryShadow;
 }
