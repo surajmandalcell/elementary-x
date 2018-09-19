@@ -74,3 +74,7 @@ development libraries installed:
 Open an app you wish to test your changes on. Open Gtk Inspector with the
 keyboard shortcut Shift + Ctrl + D, then navigate to the tab "Custom CSS".
 Your changes here will take immediate effect on the focused app.
+
+### Todo
+
+* Merge https://github.com/elementary/stylesheet/pull/381
