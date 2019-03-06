@@ -1,5 +1,7 @@
 # Elementary X  
 
+#### Maintainer Needed! Please leave a comment in "Maintainer Needed!" issue if you're intrested  
+
 Fork of the Default Gtk+ Stylesheet for elementary OS with OS X window controls
 
 The forked Gtk.CSS stylesheet with OS X window controls is designed specifically for [elementary OS](https://elementary.io) and its desktop environment: Pantheon. **Since Gtk.CSS has changed quite a bit, this stylesheet only supports Gtk >= 3.22**
