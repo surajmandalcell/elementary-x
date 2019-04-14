@@ -1,0 +1,3 @@
+[submodule "plank-themes"]
+	path = plank-themes
+	url = https://github.com/surajmandalcell/plank-themes-x.git
