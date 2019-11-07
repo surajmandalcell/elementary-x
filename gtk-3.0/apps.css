@@ -96,6 +96,12 @@ dialog entry.pathbar:focus {
         0 1px 0 0 alpha (shade (@colorPrimary, 1.4), 0.5);
 }
 
+/********************
+* Nautilus FLoatbar *
+********************/
+
+
+
 /*******
 * Gala *
 *******/
