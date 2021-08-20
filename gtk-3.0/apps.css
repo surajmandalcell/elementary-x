@@ -121,9 +121,11 @@ dialog entry.pathbar:focus {
 
 /*******
 * Gala *
+* Window Notification *
 *******/
 
-.gala-notification {
+.gala-notification,
+window.notification .draw-area {
     border: none;
     border-radius: 4px;
     background-color: transparent;
@@ -146,13 +148,24 @@ dialog entry.pathbar:focus {
         0 5px 5px -3px alpha (#000, 0.4);
 }
 
+window.notification .draw-area label.title,
 .gala-notification .title,
 .gala-notification .label {
     color: @text_color;
 }
 
+window.notification .draw-area image,
 .gala-notification image {
     color: alpha (@text_color, 0.8);
+}
+
+window.notification .draw-area progressbar progress,
+window.notification .draw-area progressbar progress:backdrop {
+    background: @fg_color;
+}
+
+window.notification .draw-area progressbar trough {
+    background: @tab_base_color ;
 }
 
 .gala-button {
